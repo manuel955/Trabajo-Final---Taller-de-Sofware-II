@@ -1,31 +1,46 @@
-.Portada {
-    height: 700px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    text-align: center;
-    position: relative;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner{
+  width: auto;
+  height: 657px;
+  background-size: 100% 100%;
+  animation: banner 10s infinite;
+  animation-direction: alternate;
+}
+@keyframes banner{
+  0%, 30%{
+      background-image: url(https://images.clarin.com/2016/07/22/SkGGSwhFVx_1256x620.jpg);
+      opacity: 1;
   }
-  
-  #Fondo-Portada {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
+  31%, 34%{
+      opacity: 0.9;
   }
-  
-  #Logo {
-    height: 90px;
-    width: 90px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    z-index: 10;
+  35%, 65%{
+      background-image: url(https://www.ecoticias.com/userfiles/extra/KCIE_215_.jpg);
+      opacity: 1;
   }
-  
-  
-  #Frase-Presentacion {
-    font-size: 33px;
-    padding-left: 10%;
-    padding-right: 10%;
+  66%, 69%{
+      opacity: 0.9;
   }
+  70%, 100%{
+      background-image: url(https://estaticos.muymascotas.es/media/cache/1140x_thumb/uploads/images/gallery/5adf1cef5cafe838e33c986a/perro-cachorro-hombre-humano-labrador_0.jpg);
+      opacity: 1;
+  }
+}
+.menu{
+      float: right;
+      margin-top: 20px;
+      margin-right: 80px;
+      display: inline;
+      color: #fff;
+}
+#Frase-Presentacion {
+  font-size: 33px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #fff;
+  float: right;
+}
