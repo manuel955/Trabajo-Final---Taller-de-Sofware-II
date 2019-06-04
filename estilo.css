@@ -35,12 +35,25 @@
       margin-top: 20px;
       margin-right: 80px;
       display: inline;
-      color: #fff;
+      
+}
+.menu a {
+    color: #fff;
 }
 #Frase-Presentacion {
   font-size: 33px;
   padding-left: 10%;
   padding-right: 10%;
-  color: #fff;
+  color: black;
   float: right;
+}
+.options-home {
+    box-sizing: border-box;
+}
+.options-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // overflow: hidden;
+    height: 100vh;
 }
