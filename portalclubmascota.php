@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+
     <title>ClubMascota</title>
 </head>
 <body>
-    <div class="banner">
-        <div class="menu">
-        <a href="http://www.wuf.pe/que-es">¿Que es Club Mascota?</a>
-        <a href="http://www.wuf.pe/adopta">Adopta</a>
-        <a href="http://www.wuf.pe/unete">Únete</a>
-        </div>
+    <header>
+    <div class="contenedor-header">
+        <h1 class="icon-guidedog">Club Mascota</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-align-justify" for="menu-bar"></label>
+        <nav class="menu">
+            <a href="">¿Que es Club Mascota?</a>
+            <a href="">Adopta</a>
+            <a href="">Únete a Club Mascota</a>
+            <a href="">Iniciar Sesion</a>
+        </nav>
     </div>
-    <div id="body">
+    </header>
+    <!-- Primera Parte-->
+    <div class="primera-parte">
+    </div>
+    <!-- Segunda Parte-->
+    <div class="segunda-parte">
         <div id="izquierda">
-sdasd
+
         </div>
         <div id="centro">
-asdasd
+
         </div>
         <div id="derecha">
-asdasd
+
         </div>
     </div>
 </div>
