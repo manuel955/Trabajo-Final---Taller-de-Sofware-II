@@ -15,26 +15,46 @@
         <a href="http://www.wuf.pe/unete">Únete</a>
         </div>
     </div>
-    <div class="options-home">
-    <div class="options-content">
-        <a href="http://www.wuf.pe/adopta" class="options-box">
-            <div class="options-text">
-                <p class="adopta">ADOPTA</p>
-                <p>¿Buscas un perro? Elige un Wuf y cambia dos vidas!</p>
-            </div>
-        </a>
-        <a href="http://www.wuf.pe/unete" class="options-box">
-            <div class="options-text">
-                <p class="ayuda">AYUDA</p>
-                <p>¿Amas a los perros? Únete a la Manada WUF y sé parte del más grande programa de voluntariado canino.</p>
-            </div>
-        </a>
-                <a href="javascript:void(0)" class="options-box">
-            <div class="options-text">
-                <p class="contribuye">CONTRIBUYE</p>
-                                <p>Estamos rediseñando ClubWuf para generar mayor valor tanto a ti como para todos los wufs.</p>
-            </div>
-        </a>
+    <div id="body">
+        <div id="izquierda">
+sdasd
+        </div>
+        <div id="centro">
+asdasd
+        </div>
+        <div id="derecha">
+asdasd
+        </div>
+    </div>
+</div>
+<div class="fullcontent content-middle">   
+    <div class="container">
+        <h2>¿Qué es un Wuf?</h2>
+        <ul>
+            <li>
+                <i class="sprite house"></i>
+                <p class="title">Es un perro rescatado</p>
+                <p>Un Wuf es un perro que ha sido rescatado del abandono o una mala crianza. Todos ellos han pasado por un proceso de socialización en los albergues, lo que garantiza su recuperación.</p>
+            </li>
+            <li>
+                <i class="sprite doctor"></i>
+                <p class="title">Es un perro seguro</p>
+                <p>Todos los Wufs están desparasitados, vacunados y esterilizados. Pasan pruebas psicológicas y clínicas, además de pruebas de sangre realizadas por SuizaVet. Nuestro proceso de adopción está certificado por la UCSUR.</p>
+            </li>
+            <li class="dogimgcontainer">
+                <img src="http://www.wuf.pe/assets/img/img-dog-qwuf.png">
+            </li>            
+            <li>
+                <i class="sprite meat"></i>
+                <p class="title">Es un perro único</p>
+                <p>Todos los Wufs son sobrevivientes, son héroes con historias y experiencias que los hacen únicos.</p>
+            </li>
+            <li>
+                <i class="sprite dog"></i>
+                <p class="title">Es un perro noble</p>
+                <p>Un Wuf agradecerá siempre poder compartir su vida a tu lado. Será un amigo fiel que te acompañará y alegrará tus días.</p>
+            </li>            
+        </ul>        
     </div>
 </div>
     <div class="bajo">

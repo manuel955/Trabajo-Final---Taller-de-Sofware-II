@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', Arial;
+  position: relative;
+  font-size: 15px;
 }
 .banner{
   width: auto;
@@ -31,7 +34,7 @@
   }
 }
 .menu{
-      float: right;
+     float: right;
       margin-top: 20px;
       margin-right: 80px;
       display: inline;
@@ -47,13 +50,54 @@
   color: black;
   float: right;
 }
-.options-home {
-    box-sizing: border-box;
+div#body{
+  margin: auto;
+  height: 300;
+  border: 1 solid gray;
+  display: flex;
 }
-.options-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // overflow: hidden;
-    height: 100vh;
+div#izquierda{
+  width: 50%;
+  height: 657px;
+  float: left;
+  text-decoration: none;
+  background-color: #7ac4cf;
+  background-image: url(https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/3/36/Australian_Cattle_Dog_puppy.jpg);
+  background-size: 100% 100%;
+}
+div#centro{
+  width: 50%;
+  height: 657px;
+  float: left;
+  text-decoration: none;
+  background-color: #7ac4cf;
+  background-image: url(https://i1.wp.com/www.epistre.net/wp-content/uploads/2018/11/albergue-perro-rescatados-01.jpg?fit=1140%2C854&ssl=1);
+  background-size: 100% 100%;
+}
+div#derecha{
+  width: 50%;
+  height: 657px;
+  float: left;
+  text-decoration: none;
+  background-color: #7ac4cf;
+  background-image: url(https://i1.wp.com/www.epistre.net/wp-content/uploads/2018/11/albergue-perro-rescatados-01.jpg?fit=1140%2C854&ssl=1);
+  background-size: 100% 100%;
+}
+.content-middle {
+  background-image: url(../img/fondo-wuf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.fullcontent {
+  width: 100%;
+  min-height: 100%;
+  min-height: 768px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
