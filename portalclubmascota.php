@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/banner.css">
 
     <title>ClubMascota</title>
 </head>
@@ -25,7 +26,19 @@
     </div>
     </header>
     <!-- Primera Parte-->
-    <div class="primera-parte">
+    <main>
+        <section id="banner">
+            <div class="contenedor-banner">
+                <h2>PORQUE EL MEJOR AMIGO DEL HOMBRE MERECE UNA VOZ</h2>
+            </div>
+            </div>
+            <a id="video-wuf-icon-modal" href="https://www.youtube.com/embed/W_haDz7I4I0?autoplay=1&color=white&fs=0&hl=es&showinfo=0&loop=1" target="_blank">
+                <i></i>
+                <span>Mira nuestro video</span>
+            </a>
+        </div>
+        </section>
+    </main>
     </div>
     <!-- Segunda Parte-->
     <div class="segunda-parte">

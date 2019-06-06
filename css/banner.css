@@ -1,0 +1,91 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+    width: auto;
+    height: 500px;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+  }
+  @keyframes banner{
+    0%, 30%{
+        background-image: url(https://images.clarin.com/2016/07/22/SkGGSwhFVx_1256x620.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.9;
+    }
+    35%, 65%{
+        background-image: url(https://www.ecoticias.com/userfiles/extra/KCIE_215_.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.9;
+    }
+    70%, 100%{
+        background-image: url(https://estaticos.muymascotas.es/media/cache/1140x_thumb/uploads/images/gallery/5adf1cef5cafe838e33c986a/perro-cachorro-hombre-humano-labrador_0.jpg);
+        opacity: 1;
+    }
+  }
+#banner .contenedor-banner{
+      color: #ffffff;
+      position: absolute;
+      top: 30%;
+      left: 18%;
+      margin-right: 50%;
+      transform: translateX(-50%) translateY(-50%);
+  }
+  #banner h2{
+      font-size: 28px;
+  }
+  #video-wuf-icon-modal {
+    position: absolute;
+    display: block;    
+    width: 170px;
+    height: 130px;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -85px;
+    text-align: center;
+}
+#video-wuf-icon-modal span {
+    display: block;
+    font-size: 18px;
+    margin-top: 4px;
+}
+#video-wuf-icon-modal i {
+    display: inline-block;
+    width: 100px;
+    height: 100px;    
+    background-image: url('../img/icon-video.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#video-wuf-icon-modal:hover {
+    text-decoration: none;
+}
+#video-wuf-icon-modal:hover i {
+    background-position: bottom center;
+}
+.video-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100000001;
+}
+.video-modal.hidden {
+    display: none;
+    visibility: hidden;
+}
+.close-modal-video {
+    background-image: url('../img/sprite_new.png');
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-position: -4px -1269px;
+    position: absolute;
+    top: 25px;
+    right: 25px; 

@@ -27,32 +27,9 @@ h1{
 .contenedor-header{
   display: table;
 }
-.primera-parte{
-  width: auto;
-  height: 789px;
-  background-size: 100% 100%;
-  animation: banner 10s infinite;
-  animation-direction: alternate;
-}
-@keyframes banner{
-  0%, 30%{
-      background-image: url(https://images.clarin.com/2016/07/22/SkGGSwhFVx_1256x620.jpg);
-      opacity: 1;
-  }
-  31%, 34%{
-      opacity: 0.9;
-  }
-  35%, 65%{
-      background-image: url(https://www.ecoticias.com/userfiles/extra/KCIE_215_.jpg);
-      opacity: 1;
-  }
-  66%, 69%{
-      opacity: 0.9;
-  }
-  70%, 100%{
-      background-image: url(https://estaticos.muymascotas.es/media/cache/1140x_thumb/uploads/images/gallery/5adf1cef5cafe838e33c986a/perro-cachorro-hombre-humano-labrador_0.jpg);
-      opacity: 1;
-  }
+section{
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 #Frase-Presentacion {
