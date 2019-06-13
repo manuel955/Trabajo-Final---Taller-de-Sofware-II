@@ -15,14 +15,14 @@
     <header>
     <div class="contenedor-header">
         <h1 class="icon-guidedog">Club Mascota</h1>
-        <input type="checkbox" id="menu-bar">
-        <label class="icon-align-justify" for="menu-bar"></label>
-        <nav class="menu">
-            <a href="">¿Que es Club Mascota?</a>
-            <a href="">Adopta</a>
-            <a href="">Únete a Club Mascota</a>
-            <a href="">Iniciar Sesion</a>
-        </nav>
+        <div class="menu">
+            <ul>
+            <li><a href="http://www.wuf.pe/">¿Que es Club Mascota?</a></li>
+            <li><a href="http://www.wuf.pe/">Adopta</a></li>
+            <li><a href="http://www.wuf.pe/">Ayuda</a></li>
+            <li><a href="http://www.wuf.pe/">Contribuye</li></a></li>
+            </ul>
+        </div>
     </div>
     </header>
     <!-- Primera Parte-->
@@ -41,19 +41,7 @@
     </main>
     </div>
     <!-- Segunda Parte-->
-    <div class="segunda-parte">
-        <div id="izquierda">
-
-        </div>
-        <div id="centro">
-
-        </div>
-        <div id="derecha">
-
-        </div>
-    </div>
-</div>
-<div class="fullcontent content-middle">   
+<div class="fullcontent">   
     <div class="container">
         <h2>¿Qué es un Wuf?</h2>
         <ul>
