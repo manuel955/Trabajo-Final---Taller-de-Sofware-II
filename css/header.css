@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+}
+.contenedor-header{
+    width: 98%;
+    margin: auto;
+  }
+.contenedor-header{
+    display: table;
+  }
+h1 a{
+    float: left;
+    color: white;
+  }
+.menu ul{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+}
