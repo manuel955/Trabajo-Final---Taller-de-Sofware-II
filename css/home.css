@@ -2,7 +2,7 @@
     margin-top: 50px;
     position: relative;
     width: auto;
-    height: 500px;
+    height: 400px;
     background-size: 100% 100%;
     animation: banner 10s infinite;
     animation-direction: alternate;
@@ -30,7 +30,7 @@
 #banner .contenedor-banner{
       color: #ffffff;
       position: absolute;
-      top: 30%;
+      top: 50%;
       left: 18%;
       margin-right: 50%;
       transform: translateX(-50%) translateY(-50%);
@@ -53,6 +53,23 @@
 #frases article{
     margin: 20px;
 }
+#porque_adoptar h2{
+    margin-top: 20px;
+    text-align: center;
+}
+#porque_adoptar .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#porque_adoptar ul{
+    padding: 20px;
+}
   footer{
       background-color: black;
+  }
+  footer h3{
+      font-size: 15px;
+      color: white;
+      margin-left: 20px;
   }

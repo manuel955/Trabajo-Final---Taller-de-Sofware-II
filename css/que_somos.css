@@ -3,17 +3,16 @@
     margin-top: 50px;
     position: relative;
     width: auto;
-    height: 500px;
+    height: 400px;
     background-size: 100% 100%;
   }
 #banner .contenedor-banner{
       color: #ffffff;
       position: absolute;
-      top: 30%;
-      left: 18%;
-      margin-right: 50%;
-      transform: translateX(-50%) translateY(-50%);
+      top: 75%;
+      margin-left: 18%;
+      margin-right: 18%;
   }
   #banner h2{
-      font-size: 28px;
+      font-size: 23px;
   }

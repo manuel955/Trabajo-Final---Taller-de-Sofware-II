@@ -33,7 +33,7 @@
         
         <section id="presentacion">
             <h2>Bienvenidos a Nuestro Club</h2>
-            <p>"Buscamos ser los embajadores de los perros en el mundo de los humanos y estamos construyendo, poco a poco, un mundo mejor para todos los perros." </p>
+            <p>"Buscamos ser los embajadores de los perros en el mundo de los humanos y estamos construyendo, poco a poco, un mundo mejor para todos las mascotas." </p>
         </section>
 
         <section id="frases">
@@ -53,10 +53,26 @@
             </div>
         </section>
 
+        <section id="porque_adoptar">
+                <h2>Porque Adoptar</h2>
+                <div class="contenedor">
+                <img src="http://www.wuf.pe/assets/img/img-dog-qwuf.png">
+                <ul>
+                    <li><p>Hay 6 millones de mascotas en las calles del Perú. Cada mascota 
+                        adoptada permite a otra ser rescatada.</p></li><br>
+                    <li><p>Adoptando ayudas a desincentivar una industria donde se 
+                        comercializan más de 300 mil mascotas al año,<br> mal tratando a madres y cachorros.</p></li><br>
+                    <li><p>Tendrás el privilegio de compartir tu vida al lado de un compañero que la 
+                        cambiará para siempre.</p></li><br>
+                    <li><p>Eligiendo adoptar contribuirás a la construcción de un mundo mejor para todos los perros.</p></li><br>
+                    <li><p>La mascota agradecerá siempre poder compartir su vida a tu lado. Será un amigo fiel que te acompañará <br> y alegrará tus días.</p></li>
+                </ul>
+                <img  src="http://www.wuf.pe/assets/img/img-dog-pqwuf.png">
+            </div>
+        </section>
+
     <footer>
-        <div class="contenedor-footer">
-            asdasd
-        </div>
+        <h3>Producido por: Manuel Cortez</h3>
     </footer>
 </body>
 </html>

@@ -27,8 +27,13 @@
     </header>
     <section id="banner">
             <div class="contenedor-banner">
-                <h2>PORQUE EL MEJOR AMIGO DEL HOMBRE MERECE UNA VOZ</h2>
+                <h2>Club Mascota es una asociación sin fines de lucro dedicada a la promoción de la adopción, 
+                    el trabajo de concientización sobre la realidad de los perros en estado de abandono
+                     y la ejecución de proyectos que contribuyan a la construcción de un mundo mejor 
+                     para todos los perros.</h2>
             </div>
         </section>
+
+        
 </body>
 </html>
