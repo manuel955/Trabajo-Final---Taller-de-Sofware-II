@@ -25,19 +25,38 @@
             </div>
         </div>
     </header>
-    <main>
         <section id="banner">
             <div class="contenedor-banner">
                 <h2>PORQUE EL MEJOR AMIGO DEL HOMBRE MERECE UNA VOZ</h2>
             </div>
-            </div>
-            <a id="video-wuf-icon-modal" href="https://www.youtube.com/embed/W_haDz7I4I0?autoplay=1&color=white&fs=0&hl=es&showinfo=0&loop=1" target="_blank">
-                <i></i>
-                <span>Mira nuestro video</span>
-            </a>
-        </div>
         </section>
-    </main>
-    </div>
+        
+        <section id="presentacion">
+            <h2>Bienvenidos a Nuestro Club</h2>
+            <p>"Buscamos ser los embajadores de los perros en el mundo de los humanos y estamos construyendo, poco a poco, un mundo mejor para todos los perros." </p>
+        </section>
+
+        <section id="frases">
+            <div class="contenedor">
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqCIOQuif_p8BDaNPnPkG3U3QTZw5ir9prpxNOfVIMrGhrWMr">
+                    <h4>Escoge a tu mascota perfecta</h4>
+                </article>
+                <article>
+                    <img src="https://almonteagudor.neocities.org/img/pet-blog2.jpg">
+                    <h4>Las mascotas necesitan cariño</h4>
+                </article>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbDhaBFxkQPepdkfTWT1PqqSwCuqJB_SL5pr_JHu_Hdd6gy5J8w">
+                    <h4>Camina con tu mascota</h4>
+                </article>
+            </div>
+        </section>
+
+    <footer>
+        <div class="contenedor-footer">
+            asdasd
+        </div>
+    </footer>
 </body>
 </html>

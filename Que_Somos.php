@@ -25,7 +25,10 @@
             </div>
         </div>
     </header>
-    <p>dsadasdasdasdasdasdasdasd</p>
-    <footer>sadasdasds</footer>
+    <section id="banner">
+            <div class="contenedor-banner">
+                <h2>PORQUE EL MEJOR AMIGO DEL HOMBRE MERECE UNA VOZ</h2>
+            </div>
+        </section>
 </body>
 </html>

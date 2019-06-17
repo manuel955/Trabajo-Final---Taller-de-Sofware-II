@@ -38,3 +38,21 @@
   #banner h2{
       font-size: 28px;
   }
+  #presentacion{
+      text-align: center;
+  }
+#frases .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#frases img{
+    width: 300px;
+    height: 300px;
+}
+#frases article{
+    margin: 20px;
+}
+  footer{
+      background-color: black;
+  }
