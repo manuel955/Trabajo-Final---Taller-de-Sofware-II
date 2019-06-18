@@ -10,13 +10,20 @@
            $user = $_POST['usuario'];
            $pass = $_POST['clave'];
 
-           $query = mysqli_query($pdo, "SELECT * FROM administrador WHERE usuario ='$user' AND clave ='$pass' ");
-           $result = mysqli_num_rows($query);
-
-           if(!empty($result) AND mysqli_num_rows($result) > 0){
-               $data = mysqli_fetch_array($query);
-                print_r($data);
-           }
+           $resultado = $pdo->query("SELECT * FROM usuario WHERE usuario ='$user' AND clave ='$pass' ");
+           $filas = $resultado->fetchAll();
+           
+           
+            if (count($filas) == 0) {
+                    $alert = 'El usuario o la clave es inconrrecta';
+                    session_destroy();
+            }
+            else {
+                session_start();
+                $_SESSION['usuario'] = $data['usuario'];
+                $_SESSION['clave'] = $data['clave'];
+                header('Location:sistema.php');
+            }
        }
 
     }
@@ -55,7 +62,7 @@
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6V2Oaa6WpB6pvPMkcDyfp_YkyZfHeyO72Eyywmg4Mqkv6Fmk1g">
             <input type="text" name="usuario" placeholder="Usuario">
             <input type="password" name="clave" placeholder="Clave">
-            <p class="alert"></p>
+            <div class="alert"><?php echo(isset($alert)? $alert:'' )?></div>
             <input type="submit" value="Ingresar">
         </form>
     </section>
