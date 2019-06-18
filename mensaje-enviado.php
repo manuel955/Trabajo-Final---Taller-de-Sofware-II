@@ -7,11 +7,11 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/ayuda.css">
-    <title>Home Club Mascota</title>
+    <link rel="stylesheet" type="text/css" href="css/mensaje.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
+<header>
         <div class="contenedor-header">
         <h1><a class="icon-guidedog" href="home.php">Club Mascota</a></h1>
             <div class="menu">
@@ -20,19 +20,14 @@
                     <li><a href="Adopta.php">Adopta</a></li>
                     <li><a href="Ayuda.php">Ayuda</a></li>
                     <li><a href="Contribuye.php">Contribuye</a></li>
-                    <li><a class="icon-user" href="login.php"></a></li>   
+                    <li><a class="icon-user" href="login.php"></a></li> 
                 </ul>
             </div>
         </div>
     </header>
-    <form action="mensaje-enviado.php">
-        <h2>Contacto Para Apoyar a Nuestro Albergue</h2>
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="text" name="nombre" placeholder="Correo" required>
-        <input type="text" name="telefono" placeholder="Telefono" required>
-        <textarea name="mensaje" placeholder="Escriba Aqui Como Desea Ayudar" required></textarea>
-        <input type="submit" value="Enviar" id="boton">
-    </form>
-    <img src="" alt="">
+    <section id="mensaje-exito">
+    <h1>Su mensaje se envio exitosamente</h1>
+    <a href="Ayuda.php">Enviar Nuevo Mensaje</a>
+    </section>
 </body>
 </html>

@@ -16,3 +16,25 @@
   #banner h2{
       font-size: 23px;
   }
+.conteiner-nosotros{
+  box-sizing: border-box;
+  width: 45%;
+  padding-left: 50px;
+  float: left;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-family: 'Open Sans', Arial;
+}
+.conteiner-nosotros img{
+  height: 200px;
+  width: 200px;
+}
+footer{
+  background-color: black;
+}
+footer h3{
+  font-size: 15px;
+  color: white;
+  margin-left: 20px;
+}

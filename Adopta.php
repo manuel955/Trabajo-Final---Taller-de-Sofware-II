@@ -20,7 +20,7 @@
                     <li><a href="Adopta.php">Adopta</a></li>
                     <li><a href="Ayuda.php">Ayuda</a></li>
                     <li><a href="Contribuye.php">Contribuye</a></li>
-                    <li><a class="icon-user" href="http://www.wuf.pe/"></a></li>   
+                    <li><a class="icon-user" href="login.php"></a></li>   
                 </ul>
             </div>
         </div>
