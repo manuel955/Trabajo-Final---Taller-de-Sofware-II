@@ -1,70 +1,29 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 body{
-	background: #ededed;
+    background-image: url(https://especiespro.es/wp-content/uploads/2016/08/mascotas-seguras.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
-
-h1{
-	font-size: 26px;
+#bienvenida{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
 }
-a{
-	text-decoration: none;
-	font-family: arial;
-	letter-spacing: 1px;
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 7px;
 }
-span {
-    font-family: 'GothamBook';
-    letter-spacing: 1px;
-    font-size: 14px;
-    line-height: 20px;
+#boton{
+    background: #333333;
+    color: white;
+    padding: 20px;
+    width: 450px;
+    margin: auto;
 }
-header{
-	position: fixed;
-	width: 100%;
-}
-.header{
-	color: #FFF;
-	background: #0a4661;
-	height: 35px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px;
-}
-.optionsBar{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.photouser {
-    margin-left: 30px;
-    width: 25px;
-    height: 25px;
-}
-.close{
-	width: 25px;
-    height: 25px;
-}
-.optionsBar a {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    margin-left: 30px;
-}
-
-#container{
-	padding: 50px 15px 15px;
+#boton:hover {
+    cursor: pointer;
 }

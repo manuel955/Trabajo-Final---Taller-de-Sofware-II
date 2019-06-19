@@ -1,3 +1,7 @@
+<?php
+# Paso 1: Estableciendo la conexión con MySQL
+$pdo = new PDO("mysql:host=localhost;dbname=club_mascota;charset=utf8", "root", "");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +29,22 @@
             </div>
         </div>
     </header>
-    <p>dsadasdasdasdasdasdasdasd</p>
-    <footer>sadasdasds</footer>
+    
+    <section id="inprimir">
+    <h1>Portal de noticias</h1>
+    <?php
+    # Paso 2: Iterar los registros
+    ?>
+    <?php foreach ($pdo->query("SELECT * FROM mascotas ORDER BY id DESC") as $fila) { ?>
+
+        <tr>
+            <td><?php echo "Nombre: ". $fila["nombre"]?></td><br>
+            <td><?php echo "Descripcion: ". $fila["descripcion"]?></td><br>
+            <td><?php echo "Mascota: ". $fila["rol"]?></td>
+        </tr>
+        <br><br>
+
+    <?php } ?>
+    </section>
 </body>
 </html>

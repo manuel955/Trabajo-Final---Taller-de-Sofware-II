@@ -1,3 +1,10 @@
 body{
-    background-color: gold;
+    background-color: lemonchiffon;
+}
+#inprimir{
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
 }

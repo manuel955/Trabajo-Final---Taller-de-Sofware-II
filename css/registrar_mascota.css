@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://especiespro.es/wp-content/uploads/2016/08/mascotas-seguras.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+#form-registrar{
+    width: 450px;
+    margin: auto;
+}
+form{
+    margin: auto;
+    padding: 20px 50px;
+}
+label{
+    display: block;
+    font-size: 12px;
+    margin: 15px auto 5px auto;
+}
+input,select{
+    display: block;
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#registrar-mascota{
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    width: 80%;
+}

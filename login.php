@@ -1,5 +1,8 @@
 <?php
-
+    session_start();
+    if(!empty($_SESSION['active'])){
+        header('Location:sistema.php');
+    }else{
     $alert= '';
     if(!empty($_POST)){
        if(empty($_POST['usuario']) || empty($_POST['clave'])) {
@@ -19,14 +22,15 @@
                     session_destroy();
             }
             else {
-                session_start();
+                
+                $_SESSION['active'] = true;
                 $_SESSION['usuario'] = $data['usuario'];
                 $_SESSION['clave'] = $data['clave'];
                 header('Location:sistema.php');
             }
        }
 
-    }
+    }}
 ?>
 <!DOCTYPE html>
 <html lang="en">

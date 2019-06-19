@@ -1,10 +1,12 @@
 <?php
-    $nombre =$_POST["t"];
-    $descripcion=$_POST["d"];
-    $autor=$_POST["a"];
+    $nombre =$_POST["nombre"];
+    $descripcion=$_POST["descripcion"];
+    $mascota=$_POST["mascota"];
+    $imgagen= $_FILES['imagen']['name'];
+    $_archivo= $_FILES['imagen']['tmp_name'];
 
     $pdo = new PDO("mysql:host=localhost;dbname=club_mascota;charset=utf8", "root", "");
-    $pdo->query("INSERT INTO noticias VALUES (NULL, '$titulo', '$descripcion',SYSDATE(), '$autor')");
+    $pdo->query("INSERT INTO mascotas VALUES (NULL, '$mascota', '$nombre', '$descripcion', '$imagen')");
 
     header("Location: sistema.php");
 ?>
